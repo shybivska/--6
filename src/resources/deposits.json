@@ -1,0 +1,283 @@
+[
+  {
+    "typ": "TERM",
+    "nazvaBanku": "ПриватБанк",
+    "nazvaVkladu": "Вклад 'Капітал'",
+    "opys": "Надійний валютний вклад без права розірвання.",
+    "valyuta": "USD",
+    "terminMisyatsiv": 12,
+    "yeKapitalizatsiya": true,
+    "mozhnaPopovnyuvaty": false,
+    "mozhnaZnyatyDostrokovo": false,
+    "rivniStavok": [
+      { "vidSumy": 500.0, "doSumy": 1000000000.0, "stavka": 0.01 }
+    ]
+  },
+  {
+    "typ": "FLEXIBLE",
+    "nazvaBanku": "ПриватБанк",
+    "nazvaVkladu": "Слава Героям",
+    "opys": "Для військових. Вільний рух коштів.",
+    "valyuta": "UAH",
+    "terminMisyatsiv": 12,
+    "yeKapitalizatsiya": false,
+    "mozhnaPopovnyuvaty": true,
+    "mozhnaZnyatyDostrokovo": true,
+    "maksSuma": 500000.0,
+    "rivniStavok": [
+      { "vidSumy": 1.0, "doSumy": 500000.0, "stavka": 14.0 }
+    ]
+  },
+  {
+    "typ": "TERM",
+    "nazvaBanku": "ПриватБанк",
+    "nazvaVkladu": "Стандарт",
+    "opys": "Класичний вклад. Найпопулярніший вибір.",
+    "valyuta": "UAH",
+    "terminMisyatsiv": 6,
+    "yeKapitalizatsiya": true,
+    "mozhnaPopovnyuvaty": true,
+    "mozhnaZnyatyDostrokovo": false,
+    "rivniStavok": [
+      { "vidSumy": 500.0, "doSumy": 1000000000.0, "stavka": 11.0 }
+    ]
+  },
+  {
+    "typ": "SAVINGS",
+    "nazvaBanku": "Monobank",
+    "nazvaVkladu": "Залізна Банка",
+    "opys": "Накопичуйте з витрат. Вільне зняття.",
+    "valyuta": "UAH",
+    "terminMisyatsiv": 12,
+    "yeKapitalizatsiya": true,
+    "mozhnaPopovnyuvaty": true,
+    "mozhnaZnyatyDostrokovo": true,
+    "rivniStavok": [
+      { "vidSumy": 1.0, "doSumy": 1000000000.0, "stavka": 10.0 }
+    ]
+  },
+  {
+    "typ": "TERM",
+    "nazvaBanku": "Monobank",
+    "nazvaVkladu": "Стандартний (12 міс)",
+    "opys": "Вигідна ставка при розміщенні на рік.",
+    "valyuta": "UAH",
+    "terminMisyatsiv": 12,
+    "yeKapitalizatsiya": true,
+    "mozhnaPopovnyuvaty": false,
+    "mozhnaZnyatyDostrokovo": false,
+    "rivniStavok": [
+      { "vidSumy": 1000.0, "doSumy": 1000000000.0, "stavka": 15.0 }
+    ]
+  },
+  {
+    "typ": "TERM",
+    "nazvaBanku": "Monobank",
+    "nazvaVkladu": "Валютний",
+    "opys": "Збереження у Євро.",
+    "valyuta": "EUR",
+    "terminMisyatsiv": 6,
+    "yeKapitalizatsiya": false,
+    "mozhnaPopovnyuvaty": false,
+    "mozhnaZnyatyDostrokovo": false,
+    "rivniStavok": [
+      { "vidSumy": 500.0, "doSumy": 1000000000.0, "stavka": 0.1 }
+    ]
+  },
+  {
+    "typ": "TERM",
+    "nazvaBanku": "Ощадбанк",
+    "nazvaVkladu": "Моя Перемога (3 міс)",
+    "opys": "Короткостроковий вклад. Без поповнення та зняття.",
+    "valyuta": "UAH",
+    "terminMisyatsiv": 3,
+    "yeKapitalizatsiya": true,
+    "mozhnaPopovnyuvaty": false,
+    "mozhnaZnyatyDostrokovo": false,
+    "rivniStavok": [
+      { "vidSumy": 1000.0, "doSumy": 1000000000.0, "stavka": 12.5 }
+    ]
+  },
+  {
+    "typ": "TERM",
+    "nazvaBanku": "Ощадбанк",
+    "nazvaVkladu": "Моя Перемога (6 міс)",
+    "opys": "Середньостроковий вклад з підвищеною ставкою.",
+    "valyuta": "UAH",
+    "terminMisyatsiv": 6,
+    "yeKapitalizatsiya": true,
+    "mozhnaPopovnyuvaty": false,
+    "mozhnaZnyatyDostrokovo": false,
+    "rivniStavok": [
+      { "vidSumy": 1000.0, "doSumy": 1000000000.0, "stavka": 13.0 }
+    ]
+  },
+  {
+    "typ": "TERM",
+    "nazvaBanku": "Ощадбанк",
+    "nazvaVkladu": "Мій захисник (Військовий)",
+    "opys": "Для захисників та їх родин. Можливе поповнення.",
+    "valyuta": "UAH",
+    "terminMisyatsiv": 6,
+    "yeKapitalizatsiya": true,
+    "mozhnaPopovnyuvaty": true,
+    "mozhnaZnyatyDostrokovo": false,
+    "rivniStavok": [
+      { "vidSumy": 1000.0, "doSumy": 1000000000.0, "stavka": 13.0 }
+    ]
+  },
+  {
+    "typ": "TERM",
+    "nazvaBanku": "Ощадбанк",
+    "nazvaVkladu": "Мій валютний депозит",
+    "opys": "Збереження у доларах.",
+    "valyuta": "USD",
+    "terminMisyatsiv": 6,
+    "yeKapitalizatsiya": false,
+    "mozhnaPopovnyuvaty": false,
+    "mozhnaZnyatyDostrokovo": false,
+    "rivniStavok": [
+      { "vidSumy": 100.0, "doSumy": 1000000000.0, "stavka": 0.01 }
+    ]
+  },
+  {
+    "typ": "TERM",
+    "nazvaBanku": "Акордбанк",
+    "nazvaVkladu": "Нові гроші",
+    "opys": "Найвища ставка на ринку на короткий термін!",
+    "valyuta": "UAH",
+    "terminMisyatsiv": 3,
+    "yeKapitalizatsiya": false,
+    "mozhnaPopovnyuvaty": false,
+    "mozhnaZnyatyDostrokovo": false,
+    "rivniStavok": [
+      { "vidSumy": 1000.0, "doSumy": 1000000000.0, "stavka": 17.17 }
+    ]
+  },
+  {
+    "typ": "TERM",
+    "nazvaBanku": "Акордбанк",
+    "nazvaVkladu": "Пенсійний",
+    "opys": "Вигідна пропозиція для пенсіонерів на рік.",
+    "valyuta": "UAH",
+    "terminMisyatsiv": 12,
+    "yeKapitalizatsiya": true,
+    "mozhnaPopovnyuvaty": true,
+    "mozhnaZnyatyDostrokovo": false,
+    "rivniStavok": [
+      { "vidSumy": 1000.0, "doSumy": 1000000000.0, "stavka": 16.0 }
+    ]
+  },
+  {
+    "typ": "TERM",
+    "nazvaBanku": "ПУМБ",
+    "nazvaVkladu": "Прибутковий",
+    "opys": "Довгостроковий вклад з низьким порогом входу.",
+    "valyuta": "UAH",
+    "terminMisyatsiv": 18,
+    "yeKapitalizatsiya": true,
+    "mozhnaPopovnyuvaty": false,
+    "mozhnaZnyatyDostrokovo": false,
+    "rivniStavok": [
+      { "vidSumy": 500.0, "doSumy": 1000000000.0, "stavka": 12.0 }
+    ]
+  },
+  {
+    "typ": "TERM",
+    "nazvaBanku": "ПУМБ",
+    "nazvaVkladu": "Накопичувальний",
+    "opys": "Можливість поповнення при стабільній ставці.",
+    "valyuta": "UAH",
+    "terminMisyatsiv": 6,
+    "yeKapitalizatsiya": true,
+    "mozhnaPopovnyuvaty": true,
+    "mozhnaZnyatyDostrokovo": false,
+    "rivniStavok": [
+      { "vidSumy": 500.0, "doSumy": 1000000000.0, "stavka": 11.5 }
+    ]
+  },
+  {
+    "typ": "TERM",
+    "nazvaBanku": "ПУМБ",
+    "nazvaVkladu": "Валютний Сейф",
+    "opys": "Безпечне зберігання доларів.",
+    "valyuta": "USD",
+    "terminMisyatsiv": 6,
+    "yeKapitalizatsiya": false,
+    "mozhnaPopovnyuvaty": true,
+    "mozhnaZnyatyDostrokovo": false,
+    "rivniStavok": [
+      { "vidSumy": 100.0, "doSumy": 1000000000.0, "stavka": 1.5 }
+    ]
+  },
+  {
+    "typ": "SAVINGS",
+    "nazvaBanku": "Sense Bank",
+    "nazvaVkladu": "Ощадний",
+    "opys": "Повна свобода дій. Знімайте та поповнюйте будь-коли.",
+    "valyuta": "UAH",
+    "terminMisyatsiv": 12,
+    "yeKapitalizatsiya": true,
+    "mozhnaPopovnyuvaty": true,
+    "mozhnaZnyatyDostrokovo": true,
+    "rivniStavok": [
+      { "vidSumy": 100.0, "doSumy": 1000000000.0, "stavka": 4.0 }
+    ]
+  },
+  {
+    "typ": "TERM",
+    "nazvaBanku": "Sense Bank",
+    "nazvaVkladu": "Прибутковий",
+    "opys": "Високий дохід для солідних сум.",
+    "valyuta": "UAH",
+    "terminMisyatsiv": 3,
+    "yeKapitalizatsiya": false,
+    "mozhnaPopovnyuvaty": false,
+    "mozhnaZnyatyDostrokovo": false,
+    "rivniStavok": [
+      { "vidSumy": 5000.0, "doSumy": 1000000000.0, "stavka": 13.0 }
+    ]
+  },
+  {
+    "typ": "TERM",
+    "nazvaBanku": "Raiffeisen Bank",
+    "nazvaVkladu": "Класичний",
+    "opys": "Надійність європейського банку.",
+    "valyuta": "UAH",
+    "terminMisyatsiv": 12,
+    "yeKapitalizatsiya": true,
+    "mozhnaPopovnyuvaty": false,
+    "mozhnaZnyatyDostrokovo": false,
+    "rivniStavok": [
+      { "vidSumy": 5000.0, "doSumy": 1000000000.0, "stavka": 11.0 }
+    ]
+  },
+  {
+    "typ": "TERM",
+    "nazvaBanku": "Глобус Банк",
+    "nazvaVkladu": "Класичний",
+    "opys": "Висока ставка та стабільність.",
+    "valyuta": "UAH",
+    "terminMisyatsiv": 3,
+    "yeKapitalizatsiya": false,
+    "mozhnaPopovnyuvaty": false,
+    "mozhnaZnyatyDostrokovo": false,
+    "rivniStavok": [
+      { "vidSumy": 1000.0, "doSumy": 1000000000.0, "stavka": 15.0 }
+    ]
+  },
+  {
+    "typ": "TERM",
+    "nazvaBanku": "А-Банк",
+    "nazvaVkladu": "Online",
+    "opys": "Швидке оформлення у смартфоні.",
+    "valyuta": "UAH",
+    "terminMisyatsiv": 12,
+    "yeKapitalizatsiya": true,
+    "mozhnaPopovnyuvaty": true,
+    "mozhnaZnyatyDostrokovo": false,
+    "rivniStavok": [
+      { "vidSumy": 500.0, "doSumy": 1000000000.0, "stavka": 14.0 }
+    ]
+  }
+]
