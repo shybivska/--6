@@ -29,4 +29,6 @@ public class RivenStavky {
     public boolean chyPidkhodyt(double suma) {
         return suma >= vidSumy && suma <= doSumy;
     }
+
+    public double getMinSuma() { return vidSumy; }
 }
