@@ -1,5 +1,10 @@
 package com.deposits.model;
 
+import com.deposits.main.Main;
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 /**
  * Клас-модель для Гнучкого Вкладу.
  * * Цей клас описує тип депозиту, який надає клієнту максимальну свободу:
@@ -9,6 +14,7 @@ package com.deposits.model;
  * від абстрактного батьківського класу Vklad.
  */
 public class HnuchkyVklad extends Vklad {
+    private static final Logger logger = LogManager.getLogger(HnuchkyVklad.class);
 
     /**
      * Унікальне поле саме для цього типу вкладу.
@@ -30,6 +36,7 @@ public class HnuchkyVklad extends Vklad {
      */
     @Override
     public boolean chyMozhnaPopovnyuvaty() {
+        logger.log(Level.INFO,"return true");
         return true;
     }
 

@@ -1,0 +1,281 @@
+2025-12-09 00:12:05 [main] INFO  com.deposits.model.HnuchkyVklad - return true
+2025-12-09 00:14:16 [main] ERROR com.deposits.main.Main - ERROR!!!
+2025-12-09 00:14:17 [main] INFO  com.deposits.model.HnuchkyVklad - return true
+2025-12-09 00:43:45 [main] ERROR com.deposits.main.Main - ERROR!!!
+2025-12-09 00:43:45 [main] INFO  com.deposits.model.HnuchkyVklad - return true
+2025-12-09 00:58:48 [main] ERROR com.deposits.main.Main - ERROR!!!
+2025-12-09 01:02:07 [main] ERROR com.deposits.main.Main - ERROR!!!
+2025-12-09 01:08:56 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 20
+2025-12-09 01:08:56 [main] ERROR com.deposits.main.Main - ERROR!!!
+2025-12-09 01:12:01 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 20
+2025-12-09 01:12:01 [main] ERROR com.deposits.main.Main - ERROR!!!
+2025-12-09 01:12:49 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=5000,00, Валюта=UAH
+2025-12-09 01:12:49 [main] INFO  com.deposits.model.HnuchkyVklad - return true
+2025-12-09 01:12:49 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 3
+2025-12-09 01:12:52 [main] INFO  com.deposits.service.ServisPidboru - Виконується сортування списку...
+2025-12-09 01:12:54 [main] INFO  com.deposits.service.ServisPidboru - Користувач запросив повний список вкладів.
+2025-12-09 01:13:29 [main] INFO  com.deposits.storage.HeneratorZvitiv - Спроба генерації договору для клієнта: Шибівська
+2025-12-09 01:13:29 [main] INFO  com.deposits.storage.HeneratorZvitiv - Файл успішно створено: dogovir_Шибівська.txt
+2025-12-09 01:15:42 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 20
+2025-12-09 01:15:42 [main] ERROR com.deposits.main.Main - ERROR!!!
+2025-12-09 01:16:21 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=43700,00, Валюта=UAH
+2025-12-09 01:16:21 [main] INFO  com.deposits.model.HnuchkyVklad - return true
+2025-12-09 01:16:21 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 3
+2025-12-09 01:16:26 [main] INFO  com.deposits.service.ServisPidboru - Виконується сортування списку...
+2025-12-09 01:16:33 [main] INFO  com.deposits.model.HnuchkyVklad - return true
+2025-12-09 01:16:55 [main] INFO  com.deposits.storage.HeneratorZvitiv - Спроба генерації договору для клієнта: Ангеліна
+2025-12-09 01:16:55 [main] INFO  com.deposits.storage.HeneratorZvitiv - Файл успішно створено: dogovir_Ангеліна.txt
+2025-12-09 01:17:11 [main] INFO  com.deposits.ui.commands.VykhidCommand - Користувач обрав пункт меню 'Вихід'. Завершення роботи програми...
+2025-12-09 01:17:43 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 01:17:43 [main] INFO  com.deposits.service.ServisPidboru - Користувач запросив повний список вкладів.
+2025-12-09 01:17:43 [main] INFO  com.deposits.service.ServisPidboru - Виконується сортування списку...
+2025-12-09 01:17:43 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 01:17:43 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='PrivatBank', Сума=1000.00, Валюта=UAH
+2025-12-09 01:17:43 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 1
+2025-12-09 01:17:43 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 01:17:43 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=EUR
+2025-12-09 01:17:43 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 0
+2025-12-09 01:17:43 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 01:17:43 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=UAH
+2025-12-09 01:17:43 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 1
+2025-12-09 01:17:43 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 01:17:43 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 01:17:43 [main] INFO  com.deposits.service.ServisPidboru - Користувач запросив повний список вкладів.
+2025-12-09 01:17:43 [main] ERROR com.deposits.service.ServisPidboru - Невірний номер вкладу: 999. Всього у списку: 3
+2025-12-09 01:17:46 [main] ERROR com.deposits.service.ServisPidboru - Невірний номер вкладу: 0. Всього у списку: 3
+2025-12-09 01:17:48 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 01:17:48 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=UAH
+2025-12-09 01:17:48 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 2
+2025-12-09 01:17:48 [main] INFO  com.deposits.service.ServisPidboru - Виконується сортування списку...
+2025-12-09 01:17:48 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 01:17:48 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 01:17:48 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=EUR
+2025-12-09 01:17:48 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 0
+2025-12-09 01:17:48 [main] WARN  com.deposits.service.ServisPidboru - Спроба перегляду деталей у порожньому списку.
+2025-12-09 01:17:48 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 01:17:48 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=USD
+2025-12-09 01:17:48 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 1
+2025-12-09 01:17:48 [main] INFO  com.deposits.service.ServisPidboru - Користувач запросив повний список вкладів.
+2025-12-09 01:17:48 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 01:17:48 [main] INFO  com.deposits.ui.commands.VykhidCommand - Користувач обрав пункт меню 'Вихід'. Завершення роботи програми...
+2025-12-09 01:17:48 [main] INFO  com.deposits.storage.HeneratorZvitiv - Спроба генерації договору для клієнта: Petrenko Petro
+2025-12-09 01:17:49 [main] INFO  com.deposits.storage.HeneratorZvitiv - Файл успішно створено: dogovir_Petrenko_Petro.txt
+2025-12-09 01:17:49 [main] INFO  com.deposits.storage.HeneratorZvitiv - Спроба генерації договору для клієнта: Taras Hryhorovych Shevchenko
+2025-12-09 01:17:49 [main] INFO  com.deposits.storage.HeneratorZvitiv - Файл успішно створено: dogovir_Taras_Hryhorovych_Shevchenko.txt
+2025-12-09 01:17:49 [main] WARN  com.deposits.model.Vklad - Увага: Сума 999999.00 не відповідає умовам вкладу 'null' (Банк: null)
+2025-12-09 01:17:49 [main] WARN  com.deposits.model.Vklad - Спроба отримати MaxStavka для некоректного вкладу: null
+2025-12-09 01:17:49 [main] ERROR com.deposits.model.Vklad - КРИТИЧНО: У вкладу 'null' (null) відсутня таблиця ставок (rivniStavok is empty)!
+2025-12-09 01:17:51 [main] ERROR com.deposits.model.Vklad - КРИТИЧНО: У вкладу 'null' (null) відсутня таблиця ставок (rivniStavok is empty)!
+2025-12-09 01:17:53 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 20
+2025-12-09 01:17:53 [main] ERROR com.deposits.main.Main - ERROR!!!
+2025-12-09 01:17:55 [main] INFO  com.deposits.model.HnuchkyVklad - return true
+2025-12-09 01:51:02 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 01:51:02 [main] INFO  com.deposits.service.ServisPidboru - Користувач запросив повний список вкладів.
+2025-12-09 01:51:02 [main] INFO  com.deposits.service.ServisPidboru - Виконується сортування списку...
+2025-12-09 01:51:02 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 01:51:02 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='PrivatBank', Сума=1000.00, Валюта=UAH
+2025-12-09 01:51:02 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 1
+2025-12-09 01:51:02 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 01:51:02 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=EUR
+2025-12-09 01:51:02 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 0
+2025-12-09 01:51:02 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 01:51:02 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=UAH
+2025-12-09 01:51:02 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 1
+2025-12-09 01:51:02 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 01:51:02 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 01:51:02 [main] INFO  com.deposits.service.ServisPidboru - Користувач запросив повний список вкладів.
+2025-12-09 01:51:02 [main] ERROR com.deposits.service.ServisPidboru - Невірний номер вкладу: 999. Всього у списку: 3
+2025-12-09 01:51:05 [main] ERROR com.deposits.service.ServisPidboru - Невірний номер вкладу: 0. Всього у списку: 3
+2025-12-09 01:51:07 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 01:51:07 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=UAH
+2025-12-09 01:51:07 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 2
+2025-12-09 01:51:07 [main] INFO  com.deposits.service.ServisPidboru - Виконується сортування списку...
+2025-12-09 01:51:07 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 01:51:07 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 01:51:07 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=EUR
+2025-12-09 01:51:07 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 0
+2025-12-09 01:51:07 [main] WARN  com.deposits.service.ServisPidboru - Спроба перегляду деталей у порожньому списку.
+2025-12-09 01:51:07 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 01:51:07 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=USD
+2025-12-09 01:51:07 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 1
+2025-12-09 01:51:07 [main] INFO  com.deposits.service.ServisPidboru - Користувач запросив повний список вкладів.
+2025-12-09 01:51:07 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 01:51:07 [main] INFO  com.deposits.ui.commands.VykhidCommand - Користувач обрав пункт меню 'Вихід'. Завершення роботи програми...
+2025-12-09 01:51:07 [main] INFO  com.deposits.storage.HeneratorZvitiv - Спроба генерації договору для клієнта: Petrenko Petro
+2025-12-09 01:51:07 [main] INFO  com.deposits.storage.HeneratorZvitiv - Файл успішно створено: dogovir_Petrenko_Petro.txt
+2025-12-09 01:51:07 [main] INFO  com.deposits.storage.HeneratorZvitiv - Спроба генерації договору для клієнта: Taras Hryhorovych Shevchenko
+2025-12-09 01:51:07 [main] INFO  com.deposits.storage.HeneratorZvitiv - Файл успішно створено: dogovir_Taras_Hryhorovych_Shevchenko.txt
+2025-12-09 01:51:07 [main] WARN  com.deposits.model.Vklad - Увага: Сума 999999.00 не відповідає умовам вкладу 'null' (Банк: null)
+2025-12-09 01:51:07 [main] WARN  com.deposits.model.Vklad - Спроба отримати MaxStavka для некоректного вкладу: null
+2025-12-09 01:51:07 [main] ERROR com.deposits.model.Vklad - КРИТИЧНО: У вкладу 'null' (null) відсутня таблиця ставок (rivniStavok is empty)!
+2025-12-09 01:51:09 [main] ERROR com.deposits.model.Vklad - КРИТИЧНО: У вкладу 'null' (null) відсутня таблиця ставок (rivniStavok is empty)!
+2025-12-09 01:51:11 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 20
+2025-12-09 01:51:11 [main] ERROR com.deposits.main.Main - ERROR!!!
+2025-12-09 01:51:12 [main] INFO  com.deposits.model.HnuchkyVklad - return true
+2025-12-09 02:01:04 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 20
+2025-12-09 02:01:04 [main] ERROR com.deposits.main.Main - ERROR!!!
+2025-12-09 02:01:45 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=5000,00, Валюта=UAH
+2025-12-09 02:01:45 [main] INFO  com.deposits.model.HnuchkyVklad - return true
+2025-12-09 02:01:45 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 3
+2025-12-09 02:01:52 [main] INFO  com.deposits.service.ServisPidboru - Виконується сортування списку...
+2025-12-09 02:01:57 [main] INFO  com.deposits.model.HnuchkyVklad - return true
+2025-12-09 02:02:09 [main] INFO  com.deposits.storage.HeneratorZvitiv - Спроба генерації договору для клієнта: Шибівська
+2025-12-09 02:02:09 [main] INFO  com.deposits.storage.HeneratorZvitiv - Файл успішно створено: dogovir_Шибівська.txt
+2025-12-09 02:02:12 [main] INFO  com.deposits.service.ServisPidboru - Користувач запросив повний список вкладів.
+2025-12-09 02:02:15 [main] INFO  com.deposits.ui.commands.VykhidCommand - Користувач обрав пункт меню 'Вихід'. Завершення роботи програми...
+2025-12-09 11:05:24 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:05:24 [main] INFO  com.deposits.service.ServisPidboru - Користувач запросив повний список вкладів.
+2025-12-09 11:05:24 [main] INFO  com.deposits.service.ServisPidboru - Виконується сортування списку...
+2025-12-09 11:05:24 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:05:24 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='PrivatBank', Сума=1000.00, Валюта=UAH
+2025-12-09 11:05:24 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 1
+2025-12-09 11:05:24 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:05:24 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=EUR
+2025-12-09 11:05:24 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 0
+2025-12-09 11:05:24 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:05:24 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=UAH
+2025-12-09 11:05:24 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 1
+2025-12-09 11:05:24 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:05:24 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:05:24 [main] INFO  com.deposits.service.ServisPidboru - Користувач запросив повний список вкладів.
+2025-12-09 11:05:24 [main] ERROR com.deposits.service.ServisPidboru - Невірний номер вкладу: 999. Всього у списку: 3
+2025-12-09 11:05:27 [main] ERROR com.deposits.service.ServisPidboru - Невірний номер вкладу: 0. Всього у списку: 3
+2025-12-09 11:05:29 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:05:29 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=UAH
+2025-12-09 11:05:29 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 2
+2025-12-09 11:05:29 [main] INFO  com.deposits.service.ServisPidboru - Виконується сортування списку...
+2025-12-09 11:05:29 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:05:29 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:05:29 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=EUR
+2025-12-09 11:05:29 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 0
+2025-12-09 11:05:29 [main] WARN  com.deposits.service.ServisPidboru - Спроба перегляду деталей у порожньому списку.
+2025-12-09 11:05:29 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:05:29 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=USD
+2025-12-09 11:05:29 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 1
+2025-12-09 11:05:29 [main] INFO  com.deposits.service.ServisPidboru - Користувач запросив повний список вкладів.
+2025-12-09 11:05:29 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:05:29 [main] INFO  com.deposits.ui.commands.VykhidCommand - Користувач обрав пункт меню 'Вихід'. Завершення роботи програми...
+2025-12-09 11:05:30 [main] INFO  com.deposits.storage.HeneratorZvitiv - Спроба генерації договору для клієнта: Petrenko Petro
+2025-12-09 11:05:30 [main] INFO  com.deposits.storage.HeneratorZvitiv - Файл успішно створено: dogovir_Petrenko_Petro.txt
+2025-12-09 11:05:30 [main] INFO  com.deposits.storage.HeneratorZvitiv - Спроба генерації договору для клієнта: Taras Hryhorovych Shevchenko
+2025-12-09 11:05:30 [main] INFO  com.deposits.storage.HeneratorZvitiv - Файл успішно створено: dogovir_Taras_Hryhorovych_Shevchenko.txt
+2025-12-09 11:05:30 [main] WARN  com.deposits.model.Vklad - Увага: Сума 999999.00 не відповідає умовам вкладу 'null' (Банк: null)
+2025-12-09 11:05:30 [main] WARN  com.deposits.model.Vklad - Спроба отримати MaxStavka для некоректного вкладу: null
+2025-12-09 11:05:30 [main] ERROR com.deposits.model.Vklad - КРИТИЧНО: У вкладу 'null' (null) відсутня таблиця ставок (rivniStavok is empty)!
+2025-12-09 11:05:31 [main] ERROR com.deposits.model.Vklad - КРИТИЧНО: У вкладу 'null' (null) відсутня таблиця ставок (rivniStavok is empty)!
+2025-12-09 11:05:34 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 20
+2025-12-09 11:05:34 [main] ERROR com.deposits.main.Main - ERROR!!!
+2025-12-09 11:05:36 [main] INFO  com.deposits.model.HnuchkyVklad - return true
+2025-12-09 11:20:02 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:20:02 [main] INFO  com.deposits.service.ServisPidboru - Користувач запросив повний список вкладів.
+2025-12-09 11:20:02 [main] INFO  com.deposits.service.ServisPidboru - Виконується сортування списку...
+2025-12-09 11:20:02 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:20:02 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='PrivatBank', Сума=1000.00, Валюта=UAH
+2025-12-09 11:20:02 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 1
+2025-12-09 11:20:02 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:20:02 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=EUR
+2025-12-09 11:20:02 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 0
+2025-12-09 11:20:02 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:20:02 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=UAH
+2025-12-09 11:20:02 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 1
+2025-12-09 11:20:02 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:20:02 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:20:02 [main] INFO  com.deposits.service.ServisPidboru - Користувач запросив повний список вкладів.
+2025-12-09 11:20:02 [main] ERROR com.deposits.service.ServisPidboru - Невірний номер вкладу: 999. Всього у списку: 3
+2025-12-09 11:20:05 [main] ERROR com.deposits.service.ServisPidboru - Невірний номер вкладу: 0. Всього у списку: 3
+2025-12-09 11:20:07 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:20:07 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=UAH
+2025-12-09 11:20:07 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 2
+2025-12-09 11:20:07 [main] INFO  com.deposits.service.ServisPidboru - Виконується сортування списку...
+2025-12-09 11:20:07 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:20:07 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:20:07 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=EUR
+2025-12-09 11:20:07 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 0
+2025-12-09 11:20:07 [main] WARN  com.deposits.service.ServisPidboru - Спроба перегляду деталей у порожньому списку.
+2025-12-09 11:20:07 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:20:07 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=USD
+2025-12-09 11:20:07 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 1
+2025-12-09 11:20:07 [main] INFO  com.deposits.service.ServisPidboru - Користувач запросив повний список вкладів.
+2025-12-09 11:20:07 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:20:07 [main] INFO  com.deposits.ui.commands.VykhidCommand - Користувач обрав пункт меню 'Вихід'. Завершення роботи програми...
+2025-12-09 11:20:07 [main] INFO  com.deposits.storage.HeneratorZvitiv - Спроба генерації договору для клієнта: Petrenko Petro
+2025-12-09 11:20:07 [main] INFO  com.deposits.storage.HeneratorZvitiv - Файл успішно створено: dogovir_Petrenko_Petro.txt
+2025-12-09 11:20:07 [main] INFO  com.deposits.storage.HeneratorZvitiv - Спроба генерації договору для клієнта: Taras Hryhorovych Shevchenko
+2025-12-09 11:20:07 [main] INFO  com.deposits.storage.HeneratorZvitiv - Файл успішно створено: dogovir_Taras_Hryhorovych_Shevchenko.txt
+2025-12-09 11:20:07 [main] WARN  com.deposits.model.Vklad - Увага: Сума 999999.00 не відповідає умовам вкладу 'null' (Банк: null)
+2025-12-09 11:20:07 [main] WARN  com.deposits.model.Vklad - Спроба отримати MaxStavka для некоректного вкладу: null
+2025-12-09 11:20:07 [main] ERROR com.deposits.model.Vklad - КРИТИЧНО: У вкладу 'null' (null) відсутня таблиця ставок (rivniStavok is empty)!
+2025-12-09 11:20:09 [main] ERROR com.deposits.model.Vklad - КРИТИЧНО: У вкладу 'null' (null) відсутня таблиця ставок (rivniStavok is empty)!
+2025-12-09 11:20:11 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 20
+2025-12-09 11:20:11 [main] ERROR com.deposits.main.Main - ERROR!!!
+2025-12-09 11:20:12 [main] INFO  com.deposits.model.HnuchkyVklad - return true
+2025-12-09 11:36:39 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:36:39 [main] INFO  com.deposits.service.ServisPidboru - Користувач запросив повний список вкладів.
+2025-12-09 11:36:39 [main] INFO  com.deposits.service.ServisPidboru - Виконується сортування списку...
+2025-12-09 11:36:39 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:36:39 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='PrivatBank', Сума=1000.00, Валюта=UAH
+2025-12-09 11:36:39 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 1
+2025-12-09 11:36:39 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:36:39 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=EUR
+2025-12-09 11:36:39 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 0
+2025-12-09 11:36:39 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:36:39 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=UAH
+2025-12-09 11:36:39 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 1
+2025-12-09 11:36:39 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:36:39 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:36:39 [main] INFO  com.deposits.service.ServisPidboru - Користувач запросив повний список вкладів.
+2025-12-09 11:36:39 [main] ERROR com.deposits.service.ServisPidboru - Невірний номер вкладу: 999. Всього у списку: 3
+2025-12-09 11:36:43 [main] ERROR com.deposits.service.ServisPidboru - Невірний номер вкладу: 0. Всього у списку: 3
+2025-12-09 11:36:45 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:36:45 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=UAH
+2025-12-09 11:36:45 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 2
+2025-12-09 11:36:45 [main] INFO  com.deposits.service.ServisPidboru - Виконується сортування списку...
+2025-12-09 11:36:45 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:36:45 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:36:45 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=EUR
+2025-12-09 11:36:45 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 0
+2025-12-09 11:36:45 [main] WARN  com.deposits.service.ServisPidboru - Спроба перегляду деталей у порожньому списку.
+2025-12-09 11:36:45 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:36:45 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=USD
+2025-12-09 11:36:45 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 1
+2025-12-09 11:36:45 [main] INFO  com.deposits.service.ServisPidboru - Користувач запросив повний список вкладів.
+2025-12-09 11:36:45 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:36:45 [main] INFO  com.deposits.ui.commands.VykhidCommand - Користувач обрав пункт меню 'Вихід'. Завершення роботи програми...
+2025-12-09 11:36:46 [main] INFO  com.deposits.storage.HeneratorZvitiv - Спроба генерації договору для клієнта: Petrenko Petro
+2025-12-09 11:36:46 [main] INFO  com.deposits.storage.HeneratorZvitiv - Файл успішно створено: dogovir_Petrenko_Petro.txt
+2025-12-09 11:36:46 [main] INFO  com.deposits.storage.HeneratorZvitiv - Спроба генерації договору для клієнта: Taras Hryhorovych Shevchenko
+2025-12-09 11:36:46 [main] INFO  com.deposits.storage.HeneratorZvitiv - Файл успішно створено: dogovir_Taras_Hryhorovych_Shevchenko.txt
+2025-12-09 11:36:46 [main] WARN  com.deposits.model.Vklad - Увага: Сума 999999.00 не відповідає умовам вкладу 'null' (Банк: null)
+2025-12-09 11:36:46 [main] WARN  com.deposits.model.Vklad - Спроба отримати MaxStavka для некоректного вкладу: null
+2025-12-09 11:36:46 [main] ERROR com.deposits.model.Vklad - КРИТИЧНО: У вкладу 'null' (null) відсутня таблиця ставок (rivniStavok is empty)!
+2025-12-09 11:36:48 [main] ERROR com.deposits.model.Vklad - КРИТИЧНО: У вкладу 'null' (null) відсутня таблиця ставок (rivniStavok is empty)!
+2025-12-09 11:36:52 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 20
+2025-12-09 11:36:52 [main] ERROR com.deposits.main.Main - ERROR!!!
+2025-12-09 11:36:54 [main] INFO  com.deposits.model.HnuchkyVklad - return true
+2025-12-09 11:44:57 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:44:57 [main] INFO  com.deposits.service.ServisPidboru - Користувач запросив повний список вкладів.
+2025-12-09 11:44:57 [main] INFO  com.deposits.service.ServisPidboru - Виконується сортування списку...
+2025-12-09 11:44:57 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:44:57 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='PrivatBank', Сума=1000.00, Валюта=UAH
+2025-12-09 11:44:57 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 1
+2025-12-09 11:44:57 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:44:57 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=EUR
+2025-12-09 11:44:57 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 0
+2025-12-09 11:44:57 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:44:57 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=1000.00, Валюта=UAH
+2025-12-09 11:44:57 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 1
+2025-12-09 11:44:57 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:44:57 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 3
+2025-12-09 11:44:57 [main] INFO  com.deposits.service.ServisPidboru - Користувач запросив повний список вкладів.
+2025-12-09 11:44:57 [main] ERROR com.deposits.service.ServisPidboru - Невірний номер вкладу: 999. Всього у списку: 3
+2025-12-09 11:44:59 [main] ERROR com.deposits.service.ServisPidboru - Невірний номер вкладу: 0. Всього у списку: 3
+2025-12-09 11:45:08 [main] INFO  com.deposits.service.ServisPidboru - Сервіс запущено. Завантажено вкладів: 20
+2025-12-09 11:45:08 [main] ERROR com.deposits.main.Main - ERROR!!!
+2025-12-09 11:45:43 [main] INFO  com.deposits.service.ServisPidboru - Пошук: Банк='null', Сума=5000,00, Валюта=UAH
+2025-12-09 11:45:43 [main] INFO  com.deposits.model.HnuchkyVklad - return true
+2025-12-09 11:45:43 [main] INFO  com.deposits.service.ServisPidboru - Знайдено варіантів: 3
+2025-12-09 11:45:46 [main] INFO  com.deposits.service.ServisPidboru - Виконується сортування списку...
+2025-12-09 11:45:58 [main] INFO  com.deposits.model.HnuchkyVklad - return true
+2025-12-09 11:46:10 [main] INFO  com.deposits.storage.HeneratorZvitiv - Спроба генерації договору для клієнта: Шибівська
+2025-12-09 11:46:10 [main] INFO  com.deposits.storage.HeneratorZvitiv - Файл успішно створено: dogovir_Шибівська.txt
+2025-12-09 11:46:13 [main] INFO  com.deposits.ui.commands.VykhidCommand - Користувач обрав пункт меню 'Вихід'. Завершення роботи програми...

@@ -1,40 +1,36 @@
 package com.deposits.storage;
 
 import com.deposits.model.Vklad;
+// 1. Імпорти Log4j2
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.time.LocalDate;
 
 /**
  * Клас, що відповідає за генерацію та збереження текстових звітів.
- * Він реалізує функціональну вимогу FR6.3 (Генерація звіту/договору).
- * Знаходиться в пакеті storage, оскільки працює з файловою системою (збереженням).
  */
 public class HeneratorZvitiv {
+    // 2. Ініціалізація логера
+    private static final Logger logger = LogManager.getLogger(HeneratorZvitiv.class);
 
     /**
      * Головний метод для створення файлу.
-     * Він приймає всі необхідні дані, форматує їх у рядок і записує на диск.
-     *
-     * @param vklad    Об'єкт обраного вкладу (для назви банку, валюти тощо).
-     * @param suma     Сума вкладу, яку ввів користувач.
-     * @param stavka   Персональна ставка (вже розрахована Сервісом, бо залежить від суми).
-     * @param prybutok Сума прибутку (вже розрахована Сервісом).
-     * @param pib      Прізвище, Ім'я, По батькові клієнта.
      */
-    // ОНОВЛЕНИЙ МЕТОД (5 параметрів)
     public void zberegtyDogovir(Vklad vklad, double suma, double stavka, double prybutok, String pib) {
 
+        // Логуємо намір створити договір
+        logger.log(Level.INFO, "Спроба генерації договору для клієнта: " + pib);
+
         // 1. Формуємо назву файлу.
-        // replaceAll(" ", "_") замінює пробіли на підкреслення.
-        // Якщо клієнт "Іванов Іван", файл буде "dogovir_Іванов_Іван.txt" (це безпечніше для Windows).
         String nazvaFailu = "dogovir_" + pib.replaceAll(" ", "_") + ".txt";
 
         // 2. Формуємо текст самого договору.
-        // Використовуємо \n для переходу на новий рядок.
-        // String.format("%.2f", prybutok) — округлює прибуток до 2 знаків після коми (копійки).
         String tekst = "=== ПОПЕРЕДНІЙ ДОГОВІР ===\n" +
-                "Дата: " + LocalDate.now() + "\n" + // Поточна дата
+                "Дата: " + LocalDate.now() + "\n" +
                 "Клієнт: " + pib + "\n" +
                 "--------------------------\n" +
                 "Банк: " + vklad.getNazvaBanku() + "\n" +
@@ -47,13 +43,19 @@ public class HeneratorZvitiv {
                 "Дякуємо, що обрали наш сервіс!";
 
         // 3. Записуємо у файл.
-        // Конструкція try(...) автоматично закриває файл після запису (close).
         try (FileWriter writer = new FileWriter(nazvaFailu)) {
-            writer.write(tekst); // Записуємо сформований текст
+            writer.write(tekst);
             System.out.println("Договір успішно збережено у файл: " + nazvaFailu);
+
+            // Логуємо успіх
+            logger.log(Level.INFO, "Файл успішно створено: " + nazvaFailu);
+
         } catch (IOException e) {
-            // Якщо немає місця на диску або немає прав доступу
             System.out.println("Помилка запису: " + e.getMessage());
+
+            // Логуємо помилку (Це піде на E-MAIL, бо рівень ERROR)
+            // Ми передаємо 'e' третім параметром, щоб в лог записався повний StackTrace помилки
+            logger.log(Level.ERROR, "Помилка I/O при збереженні договору у файл: " + nazvaFailu, e);
         }
     }
 }

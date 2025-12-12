@@ -4,6 +4,10 @@ import com.deposits.service.ServisPidboru;
 import com.deposits.storage.JsonSkhovyshche;
 import com.deposits.ui.KonsolneMenyu;
 import com.deposits.ui.commands.*;
+//import com.dinstone.loghub.LoggerFactory;
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 /**
  * Головний клас (Client у термінології патерну Command).
@@ -11,11 +15,12 @@ import com.deposits.ui.commands.*;
  * і з'єднати їх між собою перед запуском.
  */
 public class Main {
+    private static final Logger logger = LogManager.getLogger(Main.class);
     public static void main(String[] args) {
         // --- 1. Етап Ініціалізації Даних (Data Layer) ---
 
         // Вказуємо шлях до нашої "бази даних" (JSON-файлу)
-        String shlyakh = "src/resources/deposits.json";
+        String shlyakh = "resources/deposits.json";
 
         // Створюємо об'єкт Сховища, який вміє читати JSON
         JsonSkhovyshche skhovyshche = new JsonSkhovyshche();
@@ -42,6 +47,7 @@ public class Main {
         menu.addCommand("5", new OformytyCommand(servis));    // Генерація договору
         menu.addCommand("0", new VykhidCommand());            // Завершення роботи
 
+        logger.log(Level.ERROR,"ERROR!!!");
         // --- 4. Запуск Програми ---
         // Запускаємо нескінченний цикл відображення меню.
         // Програма працюватиме всередині цього методу, доки не викличуть VykhidCommand.

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="dinstone.loghub.log4j2" type="repository">
+    <properties maven-id="com.dinstone.loghub:loghub-log4j2:1.3.1" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/loghub-log4j2-1.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/loghub-core-1.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-api-2.18.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-core-2.18.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,65 +1,72 @@
 package com.deposits.model;
+
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.List;
 
 /**
  * Абстрактний клас "Вклад" (Deposit).
- * Це батьківський клас для всіх типів депозитів (Строковий, Гнучкий, Ощадний).
- * Він не може бути створений сам по собі (new Vklad() - помилка),
- * але він містить спільні поля та логіку для своїх нащадків.
  */
 public abstract class Vklad {
-    // Основна інформація про вклад (заповнюється автоматично з JSON бібліотекою GSON)
-    protected String nazvaBanku;      // Назва банку (напр., "ПриватБанк")
-    protected String nazvaVkladu;     // Назва продукту (напр., "Слава Героям")
-    protected String opys;            // Маркетинговий опис для клієнта
-    protected Valyuta valyuta;        // Валюта вкладу (enum: UAH, USD, EUR)
-    protected int terminMisyatsiv;    // Тривалість вкладу (напр., 12 місяців)
-    protected boolean yeKapitalizatsiya; // Чи додаються відсотки до вкладу (true) чи виплачуються (false)
+    // 1. Ініціалізація логера
+    private static final Logger logger = LogManager.getLogger(Vklad.class);
 
-    /**
-     * Найважливіше поле: "Драбинка ставок".
-     * Банки часто дають різний відсоток залежно від суми (більше грошей = вищий відсоток).
-     * Це список об'єктів, де кожен об'єкт описує діапазон (від-до) і ставку.
-     */
+    protected String nazvaBanku;
+    protected String nazvaVkladu;
+    protected String opys;
+    protected Valyuta valyuta;
+    protected int terminMisyatsiv;
+    protected boolean yeKapitalizatsiya;
+
     protected List<RivenStavky> rivniStavok;
 
-    // Поля, які визначають гнучкість вкладу.
-    // Використовуються нащадками або напряму, якщо логіка проста.
     protected boolean mozhnaPopovnyuvaty;
     protected boolean mozhnaZnyatyDostrokovo;
 
-    // --- Абстрактні методи ---
-    // Кожен клас-нащадок (StrokovyVklad і т.д.) ЗОБОВ'ЯЗАНИЙ реалізувати ці методи по-своєму.
     public abstract boolean chyMozhnaPopovnyuvaty();
-
     public abstract boolean chyMozhnaZnyatyDostrokovo();
 
     /**
      * Розумний метод для визначення ставки.
-     * Він перебирає "драбинку" (rivniStavok) і шукає, яка ставка відповідає сумі клієнта.
-     *
-     * @param suma Сума, яку клієнт хоче вкласти.
-     * @return Знайдена відсоткова ставка (або 0.0, якщо сума замала).
      */
     public double getStavkaDlyaSumy(double suma) {
-        if (rivniStavok != null) {
-            for (RivenStavky riven : rivniStavok) {
-                // Питаємо у кожного рівня: "Ця сума підходить тобі?"
-                if (riven.chyPidkhodyt(suma)) return riven.getStavka();
+        // DEBUG: Корисно для відлагодження, щоб бачити процес розрахунку
+        logger.log(Level.DEBUG, String.format("Спроба знайти ставку для: %s '%s', сума: %.2f", nazvaBanku, nazvaVkladu, suma));
+
+        if (rivniStavok == null || rivniStavok.isEmpty()) {
+            // ERROR: Це серйозна помилка даних. Вклад без ставок не має сенсу.
+            // Це повідомлення полетить на E-mail, якщо налаштовано SMTP.
+            logger.log(Level.ERROR, String.format("КРИТИЧНО: У вкладу '%s' (%s) відсутня таблиця ставок (rivniStavok is empty)!", nazvaVkladu, nazvaBanku));
+            return 0.0;
+        }
+
+        for (RivenStavky riven : rivniStavok) {
+            if (riven.chyPidkhodyt(suma)) {
+                // DEBUG: Знайшли ставку
+                logger.log(Level.DEBUG, "Ставку знайдено: " + riven.getStavka() + "%");
+                return riven.getStavka();
             }
         }
-        return 0.0; // Нічого не знайшли
+
+        // WARN: Це не помилка програми, але бізнес-попередження.
+        // Сума клієнта не підійшла під жодні умови (можливо, сума замала).
+        logger.log(Level.WARN, String.format("Увага: Сума %.2f не відповідає умовам вкладу '%s' (Банк: %s)", suma, nazvaVkladu, nazvaBanku));
+
+        return 0.0;
     }
 
     /**
      * Метод для сортування "Найвигідніші".
-     * Знаходить максимальну можливу ставку серед усіх рівнів цього вкладу,
-     * щоб показати клієнту "до 16% річних".
      */
     public double getMaxStavka() {
         if (rivniStavok == null || rivniStavok.isEmpty()) {
+            // Тут достатньо WARN, бо це може викликатися масово при сортуванні
+            logger.log(Level.WARN, "Спроба отримати MaxStavka для некоректного вкладу: " + nazvaVkladu);
             return 0.0;
         }
+
         double max = 0;
         for (RivenStavky r : rivniStavok) {
             if (r.getStavka() > max) {
@@ -73,12 +80,10 @@ public abstract class Vklad {
         return rivniStavok;
     }
 
-    // Геттер для перевірки капіталізації (використовується при фільтрації)
     public boolean isYeKapitalizatsiya() {
         return yeKapitalizatsiya;
     }
 
-    // --- Стандартні геттери (методи для отримання значень полів) ---
     public String getNazvaBanku() {
         return nazvaBanku;
     }
@@ -99,11 +104,6 @@ public abstract class Vklad {
         return opys;
     }
 
-    /**
-     * Перевизначений метод toString.
-     * Відповідає за те, як об'єкт буде виглядати, якщо його просто роздрукувати (System.out.println).
-     * Повертає гарний рядок: ПриватБанк "Стандарт" (UAH, 12 міс.)
-     */
     @Override
     public String toString() {
         return String.format("%s \"%s\" (%s, %d міс.)", nazvaBanku, nazvaVkladu, valyuta, terminMisyatsiv);
